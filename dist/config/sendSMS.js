@@ -20,7 +20,7 @@ const sendSms = (to, body, txt) => {
     try {
         client.messages
             .create({
-            body: `BlogDev ${txt} - ${body}`,
+            body: `Law Blog ${txt} - ${body}`,
             from,
             to
         })
